@@ -1,0 +1,18 @@
+[include]
+    # user config
+    path = .gitconfig.local
+
+[core]
+	editor = nano
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[alias]
+	undo = reset --soft HEAD~1
+
+[color]
+    ui = auto
