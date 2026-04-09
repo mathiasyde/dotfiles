@@ -11,4 +11,7 @@ ln -sf ~/dotfiles/git/.gitconfig.local ~/.gitconfig.local
 # bash
 ln -sf ~/dotfiles/bash/.bash_aliases ~/.bash_aliases
 
+# btop
+ln -sf ~/dotfiles/btop ~/.config/btop
+
 echo "Done!"
