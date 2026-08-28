@@ -14,4 +14,8 @@ ln -sf ~/dotfiles/bash/.bash_aliases ~/.bash_aliases
 # btop
 ln -sf ~/dotfiles/btop ~/.config/btop
 
+# neovim
+ln -sf ~/dotfiles/nvim ~/.config/nvim
+
 echo "Done!"
+rm -rf ~/.config/nvim/.git
